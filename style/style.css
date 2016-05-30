@@ -1,0 +1,21 @@
+input:focus,button:focus{
+	border: 2px solid blue!important;
+}
+
+.table{
+	border: 3px solid blue;
+	/*
+	border-left: 3px solid red;
+	border-right: 3px solid green;
+	border-bottom: 3px solid yellow;
+	*/
+}
+
+/*
+.table-bordered {
+	border: 3px solid magenta;
+}
+.table-bordered thead > tr > th {
+	border: 3px solid magenta;
+}
+*/
