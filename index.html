@@ -11,7 +11,18 @@
 			//alert("Olá " + name + ", sua soma é " + soma) 
 			//console.log("Olá " + name + ", sua soma é " + soma) ;
 			var nome = prompt("Digite seu nome","leandro");
-			alert("Olá " + nome);
+			//alert("Olá " + nome);
+
+			function condicao(){
+				if(nome != null ) { 
+					return "Você preencheu seu nome"
+				} else {
+					return "Você não preencheu seu nome";
+				
+				};
+			}
+		
+			console.log(condicao());
 
 		};
 
